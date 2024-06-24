@@ -19,8 +19,8 @@ router.post('/FareRules',SearchFareRules);
 router.post('/MiniRules',SearchMiniRule);
 router.post('/OfferPrice',OfferPriceInputs);
 router.post('/OrderSell',OrderSellInputs);
-//router.post('/OrderCreate',OrderCreateInputs);  // need to activate later.
-router.post('/OrderCreate',TestOrderCreateOutputs); // need to deactivate later.
+router.post('/OrderCreate',OrderCreateInputs);  // need to activate later.
+//router.post('/OrderCreate',TestOrderCreateOutputs); // need to deactivate later.
 router.post('/OrderRetrieve',OrderRetrieveInputs);
 router.post('/OrderReshopPrice',OrderReshopPriceInputs);
 router.post('/OrderCancel',OrderCancelInputs);
